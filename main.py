@@ -5,7 +5,7 @@ import json
 ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36'
 
 
-# First create .json file and then comment the following 'create_json'
+"""First create .json file and then comment the following 'create_json()'"""
 # def create_json():
 #     response = requests.get(
 #         url='https://inventories.cs.money/5.0/load_bots_inventory/730?buyBonus=40&hasTradeLock=false&hasTradeLock=true&isStore=true&limit=60&maxPrice=10000&minPrice=2000&offset=0&tradeLockDays=1&tradeLockDays=2&tradeLockDays=3&tradeLockDays=4&tradeLockDays=5&tradeLockDays=6&tradeLockDays=7&tradeLockDays=0&type=2&withStack=true',
@@ -33,7 +33,7 @@ def collect_data(cat_type=2):
             )
 
             offset += batch_size
-            # Get data from .json file
+            # Get data from .json
             data = response.json()
             items = data.get('items')
 
