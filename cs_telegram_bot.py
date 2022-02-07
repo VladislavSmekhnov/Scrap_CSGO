@@ -7,7 +7,7 @@ from main import collect_data
 from aiogram.utils.markdown import hbold, hlink
 
 
-TOKEN = "5202623669:AAEKDtfJpVLVRz4B69VZvzjzUmM5tO4IBNo"
+TOKEN = "your_telegram_token" # You can get it from telegram bot
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
