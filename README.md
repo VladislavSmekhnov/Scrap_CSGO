@@ -5,4 +5,4 @@
 
 Then, put the code in the value of the variable "TOKEN" (in cs_telegram_bot.py)
 
-### To see how it works.
+### <a href="https://github.com/VladislavSmekhnov/Scrap_CSGO/issues/1">To see how it works.</a>
