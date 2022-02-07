@@ -7,7 +7,7 @@ from main import collect_data
 from aiogram.utils.markdown import hbold, hlink
 
 
-TOKEN = "your_telegram_token" # You can get it from telegram bot
+TOKEN = "your_telegram_token" # You can get it from telegram bot 'BotFather' (with blue checkmark)
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
@@ -81,6 +81,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
